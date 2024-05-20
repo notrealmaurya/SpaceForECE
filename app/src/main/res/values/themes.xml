@@ -1,0 +1,68 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SpaceForECE" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarLight</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+    </style>
+
+    <!--  layout style-->
+    <style name="LayoutStyle">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!--    Bottom Sheet Dialog-->
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ShoppingList.BottomSheetDialog</item>
+    </style>
+
+    <style name="ShoppingList.BottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+    <!-- StatusBarLayoutStyle-->
+    <style name="StatusBarLayoutStyle">
+        <item name="android:background">@drawable/bg_topbar</item>
+    </style>
+
+    <!-- BottomBarLayoutStyle-->
+    <style name="BottomBarLayoutStyle">
+        <item name="android:background">@color/statusBarLight</item>
+    </style>
+
+
+    <!-- PopUpWindowStyle-->
+    <style name="PopUpWindowStyle">
+        <item name="android:background">@drawable/bg_popup_window</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+
+    //for Player Activity
+
+    <style name="playerActivityTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/statusBarLight</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/SplashColour</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+
+    <!-- VERIFICATION   -->
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Toolbar" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+
+</resources>

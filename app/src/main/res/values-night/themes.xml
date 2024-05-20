@@ -1,0 +1,46 @@
+<resources xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.SpaceForECE" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/statusBarDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+
+    <!--  layout style-->
+    <style name="LayoutStyle">
+        <item name="android:background">#111C25</item>
+    </style>
+
+
+    <!--    Bottom Sheet Dialog-->
+    <style name="ThemeOverlay.App.BottomSheetDialog" parent="@style/ThemeOverlay.MaterialComponents.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/ShoppingList.BottomSheetDialog</item>
+    </style>
+
+    <style name="ShoppingList.BottomSheetDialog" parent="Widget.MaterialComponents.BottomSheet.Modal">
+        <item name="backgroundTint">@android:color/transparent</item>
+    </style>
+
+
+    <!--  StatusBarLayoutStyle-->
+    <style name="StatusBarLayoutStyle">
+        <item name="android:background">@drawable/bg_topbar</item>
+    </style>
+
+
+    <!-- BottomBarLayoutStyle-->
+    <style name="BottomBarLayoutStyle">
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+
+    <!-- PopUpWindowStyle-->
+    <style name="PopUpWindowStyle">
+        <item name="android:background">@drawable/bg_popup_window</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+</resources>
