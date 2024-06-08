@@ -2,7 +2,7 @@
     <string name="app_name">SpaceForECE</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
-    <string name="client_id_google">972380395683-dc41omonuu4s9mcom8q55u7hbkc6r7eg.apps.googleusercontent.com</string>
+    <string name="client_id_google">your_client_id.com</string>
     <string name="client_id_microsoft">s</string>
 
 </resources>
